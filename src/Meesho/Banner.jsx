@@ -47,7 +47,7 @@ function Banner(){
                 </div>
 
                 <div>
-                    <button className="bg-pink-600 flex items-center border-none text-white p-2 rounded-sm"><img src={Google} alt="Googleplay" className="w-20 " />Download the Meesho App</button>
+                   <a href="https://play.google.com/store/apps/details?id=com.meesho.supply&pid=pow_website&c=pow&pow_click_page_type=HP&pow_distinct_id=18ca1591ce8648-0ba751386b0b02-26001951-144000-18ca1591ce9ae2"><button className="bg-pink-600 flex items-center border-none text-white p-2 rounded-sm"><img src={Google} alt="Googleplay" className="w-20 " />Download the Meesho App</button></a>
                 </div>
             </div>
 
