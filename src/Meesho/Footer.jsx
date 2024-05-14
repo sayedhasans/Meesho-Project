@@ -40,6 +40,7 @@ function Footer(){
                     <p className="text-gray-700">Sayed Hasan Private Limited, <br/>Maruthamalai <br/>Coimbatore-640612, <br/>Tamilnadu India
 <br/>E-mail address: <br/>hasan786619@gmail.com
 <br/>hasan clone Meesho.com</p>
+<p className="font-extrabold">Copyrights &#169; 2023 Sayedhasan Private Limited</p>
             </div>
             
         </div>

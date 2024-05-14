@@ -12,22 +12,22 @@ function Navbar({len}){
     return(
        <div className="flex p-1 justify-evenly sticky top-0 bg-white ">
         <div dir="ltr" className="flex  items-center relative">
-            <img src={Image}  alt="" className="h-[50px] sm:h-[100px] pe-8"/>
+            <Link to = "/"><img src={Image}  alt="" className="h-[50px] sm:h-[100px] pe-8"/></Link>
             <CiSearch className=" hidden sm:block text-3xl absolute left-[205px] text-gray-400"/>
             <input type="text" placeholder="Try Saree,Kurti or Search by Product Code" className="w-[80px] sm:w-[400px] p-3 sm:px-12 outline-none border-2 border-gray-400 rounded-md" />
             </div>
             <div className="hidden sm:flex items-center gap-4 text-lg relative ">
             <div className="group flex items-center gap-4 text-lg hover:text-pink-700 hover:border-b-2 border-pink-700  ">
             <TfiMobile className=" sm:hidden md:hidden lg:block gap-5"/>
-            <p className="border-r-2 border-gray-400 p-2  ">Download App</p>
+            <a href="https://play.google.com/store/apps/details?id=com.meesho.supply&pid=pow_website&c=pow"><p className="border-r-2 border-gray-400 p-2  ">Download App</p></a>
             <div className=" hidden lg:group-hover:block absolute top-36 bg-white p-6 z-50 border-2 ">
                 <p className="text-gray-800 mb-3">Download From</p>
                 <img src={Image2} alt="gplay" className="h-10  " />
                 <img src={Image3} alt="appplay" className="h-10 mt-3" />
             </div>
             </div>
-            <p className="sm:hidden md:hidden lg:block border-r-2 border-gray-400 p-2">Become a Supplier</p>
-            <p className="sm:hidden md:hidden lg:block border-r-2 border-gray-400 p-2">Newsroom</p>
+            <a href="https://supplier.meesho.com/?utm_source=meesho&utm_medium=website&utm_campaign=header"><p className="sm:hidden md:hidden lg:block border-r-2 border-gray-400 p-2">Become a Supplier</p></a>
+            <a href="https://www.meesho.io/news"><p className="sm:hidden md:hidden lg:block border-r-2 border-gray-400 p-2">Newsroom</p></a>
             </div>
             <div className=" hidden group relative sm:flex  flex-col items-center justify-center text-lg hover:text-pink-700 hover:border-b-2 border-pink-700">
                 <p><BsPerson /></p>
