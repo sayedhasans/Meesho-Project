@@ -13,7 +13,7 @@ function Products({setval}){
     return(
         <div>
             {Products ? <div className="sm:flex justify-evenly  p-6">
-                <img src={Products.images[0]} alt=""/>
+                <img src={Products.images[0]} alt=""className="h-[350px]"/>
                 <div className=" space-y-2 p-5 text-xl h-[250px] ">
                     <p>Brand  : {Products.brand}</p>
                     <p>Model  : {Products.category}</p>
